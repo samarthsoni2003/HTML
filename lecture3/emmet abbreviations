@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- p>img this is nested  -->
+    <p><img src="" alt=""></p>
+
+    <!-- for 2 different tags -->
+    <!-- p+a -->
+    <p></p>
+    <a href=""></a>
+
+    <!-- p>p>p -->
+    <p>
+        <p>
+            <p></p>
+        </p>
+    </p>
+
+    <!-- aricle{my name is sam} -->
+    <!-- this technique can also be applied to heading,paragraph,section -->
+    <article>my name is sam</article>
+
+    <!-- id creation -->
+    <p id="para1"></p>
+    <article id="article1"></article>
+    <section id="section1"></section>
+
+    <!-- class creation -->
+    <p class="paragraph"></p>
+    <article class="dog cat birds"></article> 
+
+    <!-- using DIV tag -->
+    <!-- .contaner -->
+    <div class="container">
+        <!-- table>(tr>td*2)*2 -->
+    <!-- 2 rows with 2 data elements is created -->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- table>tr*2>td*2 -->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+
+    <!-- block element -->
+    <p style="background-color: chartreuse;">this is line 1</p>
+    <p style="background-color: aquamarine;">this is line 2</p>
+
+    <!-- inline element -->
+    <span style="background-color: chartreuse;">this is line 1</span>
+    <span style="background-color: aquamarine;">this is line 2</span>
+    </body>
+</html> 
